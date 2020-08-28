@@ -1,0 +1,96 @@
+body {
+          font:100% Verdana, Tahoma, sans-serif;
+          color:blue;
+          background:#42f456;
+}
+th, td {
+       padding:10px 5px 3px 5px;
+       border:1px solid #666;
+	   text-align:left;
+	   font-size:1.5em;
+	   border-right:1px solid #999;
+	   border-bottom: 1px solid black;
+
+      }
+h1 {
+	color:black;
+	
+}
+
+ table { 
+            text-align:left;
+            border-collapse:collapse;  
+   } 
+tr {
+      vertical-align:baseline;
+}
+th {
+      font-size:1.5em;
+	  text-align:left;
+}
+td {
+      font-size:2em;
+	  
+}
+.monetary {
+	background:#f33;
+	width:300px;
+}
+.html {
+	background:#fcf;
+	width:200px;
+}
+.meaning {
+	background:#ffc;
+	width:100px;
+}
+#pagetwo {
+    background:yellow;
+}
+.green {
+	background:green;
+}
+tfoot {
+	font-size:0.8em;
+	color:#686;
+	font-style:italic;
+	text-align:right;
+}
+/*div {
+	background:olive;
+}*/
+/*tr:nth-child(odd){    
+background: red;
+}
+tr:nth-child(even){   
+background: lightblue;
+}*/
+tr:hover {
+	background:#696;
+	color:#fff;
+}
+#content {
+	padding:0 25px;
+	
+}
+
+
+ a[href$=".docx"] {
+	background:url(images/mswordicon.gif) no-repeat center right;
+	padding:0 25px 0  0px;
+}
+ a[href$=".pdf"] {
+background:url(images/pdficon_small.gif) no-repeat center right;	
+padding:0 25px 0  0px;
+}
+a[href^="http:"] {    
+padding:0 14px 0 0px;      
+background:url(images/arrow.gif) no-repeat center right; 
+}
+a[href^="mailto:"] {
+padding:0 17px 0  0px;
+background:url(images/mail.gif) no-repeat center right;
+}
+caption {
+	color:black;
+}
